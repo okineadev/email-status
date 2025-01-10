@@ -18,7 +18,7 @@ export default async (req: Request) => {
         },
         body: JSON.stringify({
             chat_id: process.env.RECIPIENT_TELEGRAM_ID,
-            text: `New request at ${currentTime} !:\n${headersText}`,
+            text: `New request at ${currentTime} !:\nID: Alif\n${headersText}`,
             parse_mode: "Markdown"
         })
     });
