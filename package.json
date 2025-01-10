@@ -1,0 +1,7 @@
+{
+	"name": "email-status",
+	"private": true,
+	"devDependencies": {
+		"@vercel/edge": "^1.2.1"
+	}
+}
