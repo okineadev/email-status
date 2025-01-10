@@ -3,8 +3,6 @@ import { Request } from '@vercel/edge';
 export const config = { runtime: 'edge' };
 
 export default async (req: Request) => {
-    // console.log('Received request', req.headers);
-
     let headersText = '';
     // @ts-expect-error
     req.headers.forEach((value, key) => {
