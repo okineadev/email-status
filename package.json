@@ -3,5 +3,8 @@
 	"private": true,
 	"devDependencies": {
 		"@vercel/edge": "^1.2.1"
+	},
+	"dependencies": {
+		"@vercel/functions": "^1.5.2"
 	}
 }
