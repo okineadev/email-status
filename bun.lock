@@ -1,0 +1,19 @@
+{
+  "lockfileVersion": 0,
+  "workspaces": {
+    "": {
+      "name": "email-status",
+      "dependencies": {
+        "@vercel/functions": "^1.5.2",
+      },
+      "devDependencies": {
+        "@vercel/edge": "^1.2.1",
+      },
+    },
+  },
+  "packages": {
+    "@vercel/edge": ["@vercel/edge@1.2.1", "", {}, "sha512-1++yncEyIAi68D3UEOlytYb1IUcIulMWdoSzX2h9LuSeeyR7JtaIgR8DcTQ6+DmYOQn+5MCh6LY+UmK6QBByNA=="],
+
+    "@vercel/functions": ["@vercel/functions@1.5.2", "", { "peerDependencies": { "@aws-sdk/credential-provider-web-identity": "*" }, "optionalPeers": ["@aws-sdk/credential-provider-web-identity"] }, "sha512-9XuynFoM/J1X+LSahgjhuAZCbZ96vm9mpXapCkSS1MX890U7zLh7n2RW/2KLNuxsXt8u8h2dOCw+Njtg+7pXgQ=="],
+  }
+}
