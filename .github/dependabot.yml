@@ -1,7 +1,7 @@
 version: 2
 updates:
-  # Maintain dependencies for npm
-  - package-ecosystem: "npm"
+  # Maintain dependencies for bun
+  - package-ecosystem: "bun"
     directory: "/"
     schedule:
       interval: "monthly"
@@ -19,7 +19,6 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
-    enable-beta-ecosystems: true
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
